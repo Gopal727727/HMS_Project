@@ -1,0 +1,133 @@
+.hms-bg-normal{
+    background-color: #6aa2fc;
+}
+
+.hms-bg-light{
+    color: #8807b5;
+}
+
+.hms-txt-light{
+    color: #8fb5f1;
+}
+
+.admin-page-bg {
+    background-color: #b4f7f7;
+}
+
+.hms-bg-normal-admin{
+    background-color: #212529;
+}
+
+.hms-bg-light-admin{
+    color: #28d2df;
+}
+
+.hms-bg-dark-admin,.hms-bg-dark-admin:hover{
+    background-color: #3b4044;
+    color: white;
+}
+
+
+.hms-bg-dark,.hms-bg-dark:hover{
+    background-color: #5888d6;
+    color: white;
+}
+
+.forhover {
+    background-color: #6aa2fc; /* Initial color */
+    border-radius: 0px; /* No rounded edges initially */
+    transition: background-color 0.2s ease, border-radius 0.2s ease; /* Smooth transition */
+}
+
+.forhover-admin {
+    background-color: #50565c ;/* Initial color */
+    border-radius: 0px; /* No rounded edges initially */
+    transition: background-color 0.2s ease, border-radius 0.2s ease; /* Smooth transition */
+}
+
+.forhover-admin:hover {
+    background-color: #6C757D; /* Initial color */
+    border-radius: 10px; /* No rounded edges initially */
+}
+
+.forhover:hover {
+    background-color: #2ecc71; /* Color on hover */
+    border-radius: 10px; /* Rounded edges on hover */
+}
+
+*{
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#signupbtnspacing{
+   margin-left: 20px;
+}
+
+.about-content {
+    margin-top: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+.responsive-banner-img {
+    width: 100vw; /* Full viewport width */
+    height: auto; /* Automatically adjust height while maintaining aspect ratio */
+    max-width: 1920px; /* Ensure the image doesn't exceed 1920px */
+    max-height: calc((500 / 1920) * 100vw); /* Keep the aspect ratio of 1920x600 */
+  }
+
+.responsive-image {
+    width: 100%; /* or set to a percentage as needed */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 500px; /* Optional: limit maximum width */
+    max-height: 300px; /* Optional: limit maximum height */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+.imageContainer {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.image {
+    object-fit: cover;
+}
+.custom-image {
+    width: 100%; /* Full width of the container */
+    height: 100px; /* Set a fixed height */
+    object-fit: contain; /* Ensures the entire image fits without cutting */
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden; /* Hide overflow */
+}
+
+.chart-container {
+    background-color: #c5dbf1; /* Light background color */
+    padding: 20px; /* Add some padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.card-body span {
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Show ellipsis for overflowed text */
+    max-width: 70%; /* Limit width to allow space for the button */
+}
+
+.text-center {
+    text-align: center;
+}
+
