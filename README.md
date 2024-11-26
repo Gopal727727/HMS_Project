@@ -1,3 +1,4 @@
+Simple Project on Hotel Management System:
 Project made in next.js
 requires next.js and node
 to make this project work:
