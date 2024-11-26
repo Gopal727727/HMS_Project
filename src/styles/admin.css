@@ -1,0 +1,23 @@
+/* components/AdminHeader.module.css */
+.navbar {
+    background-color: #007bff; /* Change this to your desired background color */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #ffffff; /* White color for the brand text */
+  }
+  
+  .nav-link {
+    color: #ffffff; /* White color for links */
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
+  
+  .shadow {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
